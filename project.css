@@ -1,0 +1,143 @@
+body{
+	margin:0;
+	padding:0;
+	width: 1200px;
+}
+#sidebar h1{
+	color: green;
+	font-size: 50px;
+	margin:10px;
+}
+#sidebar h3{
+	margin:0;
+	color: orange;
+	font-weight: bold;
+}
+#sidebar{
+	height: 550px;
+	width: 180px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin-right: 50px;
+	display: flex;
+	float: left;
+	flex-direction: row;
+}
+#list{
+	flex-direction: column;
+	padding: 10px;
+}
+#sidebar ul{
+		list-style: none;
+		margin:0;
+}
+#sidebar li{
+	padding-bottom: 10px;
+}
+#sidebar ul li a{
+	text-decoration: none;
+	color: rgba(0,0,0,0.8);
+	font-size: 25px;
+}
+#sidebar ul li a:hover{color: green}
+#main img{
+	height: 280px;
+	width: 400px;
+}
+#main{
+	width: 850px;
+	margin-top: 50px;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 200px;
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+}
+#main h1-{
+	font-weight: bold;
+}
+#main a, #sub-main a, .head a, .title a{
+	text-decoration: none;
+	color: black;
+}
+#main a:hover{color: rgba(0,0,0,0.3);}
+
+#sub-main{
+		padding-left: 50px;
+}
+#sub-main p:first-child{
+	color: orange;
+}
+.heading{
+	clear: both;
+	padding-top: 20px;
+	margin-left: 200px;
+	width: 850px;
+}
+.body{
+	margin-left: 200px;
+	width: 850px;
+	height: 250px;
+	box-sizing: border-box;
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.body img{
+	height: 200px;
+	width: 200px;
+}
+.head{
+		width: 1200px;
+}
+.title{
+		padding-top: 70px;
+		font-size: 15px;
+		padding-left: 30px;
+		padding-right: 15px;
+}
+.body a:hover{color: rgba(0,0,0,0.3);}
+.img1{
+
+}
+
+.loadmore {
+	height: 50px;
+	width: 850px;
+	line-height: 10px;
+	text-align: center;
+	margin-left: 200px;
+}
+.loadmore h2{color: green;}
+
+#footer{
+	height: 100px;
+	padding-top: 50px;
+}
+#footer ul{
+	list-style: none;
+	padding-left: 130px;
+
+}
+#footer ul li{
+	display: inline;
+	padding: 10px;
+}
+#footer ul li a{
+	
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+}
+#footer ul li a:hover{color: green;text-decoration:inline}
+address{
+	text-align: center;
+}
+
+@media(max-width:800px) {
+    .title{display:none;}
+    #login{display: none;}
+    }
